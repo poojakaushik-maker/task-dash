@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+
+
+.dark-mode-btn {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+  
+  font-size: 19px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.dark-mode-btn:hover {
+  background: #eef2ff;
+  
+}
+
+.dark-mode-btn {
+  color: #ffffff;
+}
+
+.dark-mode-btn i.bi-moon-stars {
+  color: #000000;
+}
